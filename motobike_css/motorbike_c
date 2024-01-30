@@ -1,0 +1,335 @@
+*{
+    
+    margin: 0;
+}
+body{
+    background: white;
+    
+}
+nav{
+   display: flex;
+    background: rgba(0, 0, 0, 0.379);
+    padding:12px;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    
+    
+}
+nav a{
+    
+    color:white;
+    padding:5px;
+    
+    
+}
+button{
+    
+    border-radius: 8px;
+    border: none;
+    background: rgb(93, 93, 146);
+    color: white;
+
+    padding: 10px;
+    margin: 0px;
+
+
+    
+}
+b{
+    /* background: black; */
+    color: white;
+}
+.header{
+    background: url(https://images8.alphacoders.com/120/1203030.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    margin:110px;
+    background:rgba(255, 255, 255, 0.05);
+    font-size: 25px;
+    color:white;
+}
+h1{
+    display: flex;
+    margin: 12px;
+    justify-content: center;
+    padding: 12px;
+    font-size:larger;
+}
+.header p{
+    display: flex;
+    padding:20px;
+    color: white;
+    background: #0000005b;
+    font-size: 22px;
+    margin: 120px auto;
+    width: 85%; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pa{
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    /* background: #000; */
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.we{
+    background-color: white;
+    width: 200px;
+    margin: 30px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    gap: 25px;
+}
+.we:hover{
+    transform: scale(1.2);
+}
+
+.we .image{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto 0 auto;
+}
+
+.we .image img{
+    width: 100%;
+}
+
+.we h1{
+    color: rgb(109, 111, 112);
+    margin: 0;
+}
+
+.we p{
+    text-align: center;
+    font-size: 12px;
+    margin: 10px;
+}
+i{
+    font-size: medium;
+}
+.purple{
+    color: grey;
+    
+}
+.no {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 25px;
+    margin: 12px auto;   
+}
+
+
+
+.you{
+    background-color: white;
+    max-width: 600px;
+    border-radius: 5px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 10px;
+    /* background: #000; */
+}
+
+.you .image{
+    flex: 1;
+    min-width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.you img{
+    width: 100%;
+    height: 100%;
+}
+
+.you .right{
+    flex: 1;
+}
+
+.you .right h1, .you .right p{
+    float: left;
+}
+.you p{
+    padding: 8px;
+}
+
+.price {
+    display: flex;
+    background: white;
+    color: black;
+    width:100%;
+    justify-content: space-between;
+    
+    margin-top: 30px;
+    
+    
+    
+}
+.rwf{
+    
+    padding: 5px;
+}
+.usd{
+    padding: 5px;
+}
+
+.purple{
+    color: rgba(128, 0, 128, 0.848);
+}
+h3{
+    
+}
+.items_open{
+    display: flex;
+
+
+
+}
+
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.image {
+    overflow: hidden;
+    width: 190px;
+    height: 250px;
+    
+    
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 8px;
+}
+.right{
+    background: grey;
+    width: 350px;
+}
+.right h1{
+    
+}
+.price button{
+    border: 1px solid rgb(97, 184, 224);
+    border-radius: 5px;
+    background: none;
+    padding: 7px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(97, 184, 224);
+}
+.price button:hover{
+    background: rgb(97, 184, 224);
+    color: white;
+}
+.right p{
+    background-color: white;
+    color: black;
+    font-family: serif;
+    margin: 4px;
+}
+.right .des{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+}
+.right{
+    
+    background: white;
+    width: 350px;
+    border-radius: 5px;
+    
+}
+.nolla .image{
+    width: 100%;
+}
+.nolla .items_open{
+    width: 400px;
+    flex-wrap: wrap;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+.nolla{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px;
+    gap: 20px;
+    margin-top: 40px;
+    
+
+    
+    
+}
+.nolla p{
+    padding: 8px;
+}
+.regis{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px;
+    gap: 20px;
+    margin-top: 40px;
+}
+.regis .items_open{
+    width: 500px;
+    flex-wrap: wrap;
+
+}
+.regis .image{
+    width: 100%;
+}
+.regis img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.footer{
+    font-size: 20px;
+    text-align: center;
+    margin-top:  10px;
+    background: grey;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+.nolla .items_open:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.items .items_open:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+    
+}
+.regis p{
+    padding: 8px;
+    margin: 12px;
+}
+.regis .price{
+    margin:10px
+}
